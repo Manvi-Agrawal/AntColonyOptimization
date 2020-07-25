@@ -104,7 +104,7 @@ void input_parameters()
 	pherome = vector< vector<float> >(N, vector<float>(N,1));
 	//Set Pherome Increment Matrix*/
 	pherome_increment_prob = vector< vector< vector<float> > >(num_ants,
-	vector< vector<float> >(N, vector<float>(N,1)) );
+	vector< vector<float> >(N, vector<float>(N,0)) );
 	//Set path Matrix*/
 	path = vector< vector<int> >(num_ants);
 	//Input max_time and min_credits*/
